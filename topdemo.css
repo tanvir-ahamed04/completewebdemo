@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+.contanar{
+    height: 70%;
+    width: 100%;
+    position: relative ;
+}
+.contanar img{
+    height:500px;
+    width:1400px;
+}
+
+.text-box{
+    position: absolute;
+    z-index: 1;
+    top: 45%;
+    left:60%;
+    animation: 2s slide-right;
+    animation-delay: 0s;
+    color: white;
+    height: 30px;
+    width: auto;
+    font-family: 'La Belle Aurore', cursive;
+}
+.text-h3{
+    position: absolute;
+    z-index: 1;
+    top: 55%;
+    left:70%;
+    animation: 2s slide-right;
+    animation-delay: 0s;
+    color: white;
+    height: 30px;
+    width: auto;
+    font-family: 'La Belle Aurore', cursive;
+}
+
+/* make positioning an image on top of another using the position and z-index properties */
+.img{
+    position: absolute;
+   top: 5%;
+    left: 5px;
+   width: 200px;
+   height: auto;
+   z-index: 1;
+}
+.btn{
+    position: absolute;
+    z-index: 1;
+    top: 60%;
+    left:65%;
+    border-radius: 10px;
+    background-color:  rgb(220, 227, 231);
+    padding: 15px;
+    font-weight:bolder;
+    animation: 2s slide-right;
+    animation-delay: 0s;
+   
+}
+.btn1{
+    position: absolute;
+    z-index: 1;
+    top: 60%;
+    left: 80%;
+    font-weight:bolder;
+    border-radius: 10px;
+    background-color:  rgb(0, 157, 255);
+    padding: 15px;
+    margin-left: 30px;
+/*slider animation */
+    animation: 2s slide-right;
+    animation-delay: 0s;
+    
+}
+
+.btn:hover {
+    background-color: rgb(26, 137, 197);
+}
+.btn1:hover {
+    background-color: bisque;
+}
+/*slider--------------------------------code*/
+@keyframes slide-right{
+    from {
+      margin-left: -800px;
+    }
+  
+    to {
+      margin-left: none;
+    }
+  }
+ .port-img{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 60;
+    font-family: 'Bad Script', cursive;
+    font-style:normal ;
+}
+
+
+/*icon css*/
+.fa{ 
+        padding: 15px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 40%;
+        margin: 20px;
+        }
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #0a45db;
+    color: rgb(237, 225, 225);
+    size: 100px;
+}
+.fa-twitter {
+    background: #197cdf;
+    color: rgb(242, 232, 232);
+}
+.fa-linkedin {
+    background: blue;
+    color: white;
+  }
+  .fa-github {
+    background: #e9f3f3;
+    color: black;
+  }
+.fa-instagram {
+    background: #e9f3f3;
+    color: rgb(235, 34, 58);
+  }
